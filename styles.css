@@ -67,6 +67,15 @@ section h2 {
     font-size: 2rem;
 }
 
+section img {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Skills List */
 section ul {
     padding-left: 20px;
     color: #b0b0b0; /* Slightly muted light color */
@@ -88,6 +97,7 @@ section p {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 8px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -138,9 +148,8 @@ footer p {
         font-size: 2rem;
     }
 
-    nav ul li {
-        display: block;
-        margin: 10px 0;
+    section {
+        padding: 30px 15px;
     }
 
     .button {
